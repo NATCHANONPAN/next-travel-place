@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: #6b7280;
+  border-radius: 12px;
+  width: fit-content;
+  height: fit-content;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+  button {
+    font-size: 14px;
+  }
+}
